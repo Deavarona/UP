@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -31,6 +36,10 @@ h4 {
   height: 50px;
 }
 
+.navigation {
+  background-color: #c47179;
+}
+
 header .navigation {
   display: flex;
   flex-direction: row;
@@ -55,17 +64,30 @@ div.container {
   padding-bottom: 200px;
 }
 
-div.left {
+.to-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left {
   width: 1100px;
   padding-left: 50px;
   padding-right: 50px;
 }
 
-div.to-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+.right {
+  text-align: right;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.center {
+  width: 1100px;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 ul.container {
@@ -86,19 +108,6 @@ img.small {
   border-radius: 100px;
 }
 
-.right {
-  text-align: right;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.center {
-  width: 1100px;
-  text-align: center;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
 .quote {
   font-style: italic;
 }
@@ -107,10 +116,33 @@ img.small {
   font-family: 'Playfair Display', serif;
 }
 
-#background {
-  background-image: url("../img/smth_background.jpg");
+.main-block {
+  background-color: #f3bac3;
 }
 
-footer.container {
-  font-size: 20px;
+.mission-block {
+  background-color: #d3c9c4;
+}
+
+.faculties-block {
+  background-color: #a4e6f4;
+}
+
+.study-block {
+  background-color: #6998a3;
+}
+
+.diversity-block {
+  background-color: #d3c9c4;
+}
+
+.future-block {
+  background-image: url("../img/smth_background_tg.jpg");
+  background-size: cover;
+  font-weight: 500;
+  /* background-color: #c47179; */
+}
+
+.footer-block {
+  background-image: url("../img/background_footer_new.jpg");
 }
