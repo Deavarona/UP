@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -17,6 +22,11 @@ h2 {
 }
 
 h3 {
+  font-size: 35px;
+  font-weight: 300;
+}
+
+h4 {
   font-size: 27px;
   font-weight: 300;
 }
@@ -24,6 +34,10 @@ h3 {
 .logo {
   width: 50px;
   height: 50px;
+}
+
+.navigation {
+  background-color: #c47179;
 }
 
 header .navigation {
@@ -48,20 +62,32 @@ nav ul li {
 div.container {
   padding-top: 200px;
   padding-bottom: 200px;
-  border: 1px solid;
 }
 
-div.left {
+.to-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left {
   width: 1100px;
   padding-left: 50px;
   padding-right: 50px;
 }
 
-div.to-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+.right {
+  text-align: right;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.center {
+  width: 1100px;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 ul.container {
@@ -73,8 +99,50 @@ img {
   height: 500px;
 }
 
-.right {
-  text-align: right;
-  padding-left: 50px;
-  padding-right: 50px;
+img.small {
+  width: 200px;
+  height: 200px;
+}
+
+.round {
+  border-radius: 100px;
+}
+
+.quote {
+  font-style: italic;
+}
+
+.elegant {
+  font-family: 'Playfair Display', serif;
+}
+
+.main-block {
+  background-color: #f3bac3;
+}
+
+.mission-block {
+  background-color: #d3c9c4;
+}
+
+.faculties-block {
+  background-color: #a4e6f4;
+}
+
+.study-block {
+  background-color: #6998a3;
+}
+
+.diversity-block {
+  background-color: #d3c9c4;
+}
+
+.future-block {
+  background-image: url("../img/smth_background_tg.jpg");
+  background-size: cover;
+  font-weight: 500;
+  /* background-color: #c47179; */
+}
+
+.footer-block {
+  background-image: url("../img/background_footer_new.jpg");
 }
