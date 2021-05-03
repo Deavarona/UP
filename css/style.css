@@ -32,12 +32,14 @@ h4 {
 }
 
 .logo {
+  padding-left: 30px;
   width: 50px;
   height: 50px;
 }
 
 .navigation {
-  background-color: #c47179;
+  background-color: #390807;
+  color: white;
 }
 
 header .navigation {
@@ -49,14 +51,16 @@ header .navigation {
 
 ul.navigation {
   list-style-type: none;
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 20px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 
 nav ul li {
   margin: 0 20px;
+  padding-left: 10px;
+  border-left: 1px solid white;
 }
 
 div.container {
@@ -117,11 +121,12 @@ img.small {
 }
 
 .main-block {
-  background-color: #f3bac3;
+  background-color: #4b0a06;
+  color: white;
 }
 
 .mission-block {
-  background-color: #d3c9c4;
+  background-color: #FFDFD9;
 }
 
 .faculties-block {
@@ -137,12 +142,23 @@ img.small {
 }
 
 .future-block {
-  background-image: url("../img/smth_background_tg.jpg");
+  background-image: url("../img/future_background.jpg");
   background-size: cover;
   font-weight: 500;
   /* background-color: #c47179; */
 }
 
 .footer-block {
-  background-image: url("../img/background_footer_new.jpg");
+  /* background-image: url("../img/background_footer.jpg"); */
+  background-color: #390807;
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a {
+  color: white;
 }
