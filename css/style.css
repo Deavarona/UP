@@ -162,3 +162,7 @@ nav a {
 footer a {
   color: white;
 }
+
+div.faculties-block a {
+  color: black;
+}
